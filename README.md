@@ -13,4 +13,4 @@ http://localhost:5000/file3.txt
 
 You can add query params with keys startline and endline
 
-http://localhost:5000/file3.txtstartline=2&endline=56
+http://localhost:5000/file3.txt?startline=2&endline=56
