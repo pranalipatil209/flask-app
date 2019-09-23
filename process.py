@@ -33,7 +33,7 @@ class FILE_HANDELING(object):
             f1.close()
             return True
         except Exception, ex:
-            pass
+            return str(ex)
 
     def _valid_file(self, name):
         file_name = re.split(r'\s',name)

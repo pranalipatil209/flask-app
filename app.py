@@ -15,7 +15,7 @@ def readFile(filename):
         if(temp == True):
             return render_template('output.html')
         else:
-            return render_template('404.html')
+            return render_template('404.html', error=temp)
     else:
         return render_template('404.html')
 
