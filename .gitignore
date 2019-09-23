@@ -1,0 +1,13 @@
+# Mac file types to be ignored
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# folders to be ignored
+venv/
+
+# Python executables
+*.pyc
+
